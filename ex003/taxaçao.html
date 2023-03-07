@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="taxaçao.js"></script>
+    <title>Calculo de juros</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ajuda sua economia
+        </h1>
+    </header>
+    <section>
+        <div>
+            <p id="p1"> Valor depositado:<input type="number" name="valor" id="total"> </p>
+
+            <p id="p2"> Taxa ao dia: <input type="number" name="taxa" id="juros"> %</p>
+
+            <p id="p3"> Dias em rendimento: <input type="number" name="dias" id="dia"></p>
+
+            <input type="radio" name="tipo" id="simples"><label for="simples">simples</label>
+
+            <input type="radio" name="tipo" id="composto"><label for="composto">composto</label>
+
+            <p><input type="button" value="calcular" onclick="calcular()"></p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

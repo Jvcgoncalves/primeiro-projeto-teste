@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+section {
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#botao {
+    margin-left: 100px;
+}
+
+#res {
+    background-color: antiquewhite;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+#a {
+    font-size: 12pt;
+}
+
+#b {
+    font-size: 12pt;
+}
+
+#m {
+    font-size: 12pt;
+}
+
+#j {
+    font-size: 12pt;
+}
+
+#s {
+    font-size: 12pt;
+}

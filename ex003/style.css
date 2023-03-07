@@ -1,0 +1,36 @@
+body {
+    background-color: azure;
+}
+
+header {
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    width: 500px;
+    background-color: bisque;
+    border-radius: 30px;
+}
+
+#p1 {
+    margin-left: 100px;
+    text-align: start;
+
+}
+
+#p2 {
+    margin-left: 100px;
+    text-align: start;
+}
+
+#p3 {
+    margin-left: 100px;
+    text-align: start;
+}
